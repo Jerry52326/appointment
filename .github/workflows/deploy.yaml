@@ -18,4 +18,4 @@ jobs:
             - name: Restore dotnent
               run: dotnet restore
             - name: Build applicaation
-              run: dotnent build -c Release --no-restore
+              run: dotnet build -c Release --no-restore
